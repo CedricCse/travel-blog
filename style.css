@@ -90,6 +90,106 @@ header {
     margin: 0;
 }
 
+.contact {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    margin: 0 0 10px;
+
+    color: rgb(78, 164, 135);
+    font-size: 32px;
+}
+
+.contact h2 img {
+    width: 32px;
+    height: 32px;
+}
+
+.contact-text {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-row {
+    display: flex;
+    gap: 28px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-box label {
+    margin-bottom: 20px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid #7c6245;
+    outline: none;
+
+    background: transparent;
+}
+
+.input-box input {
+    height: 25px;
+}
+
+.message-box {
+    margin-top: 35px;
+}
+
+.input-box textarea {
+    height: 40px;
+    resize: none;
+}
+
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    margin-top: 15px;
+
+    font-size: 10px;
+}
+
+.privacy span {
+    color: #4caf8a;
+}
+
+.send-button {
+    display: block;
+
+    margin: 35px auto 0;
+    padding: 5px 25px;
+
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
