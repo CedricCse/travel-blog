@@ -45,6 +45,51 @@ header {
     }
 }
 
+.faq {
+    padding: 40px 20px 80px;
+}
+
+.faq h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    color: rgba(78, 164, 135, 1);
+    font-size: 32px;
+
+    margin-bottom: 30px;
+}
+
+.faq h2 img {
+    width: 32px;
+    height: 32px;
+}
+
+.faq-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    width: 100%;
+    background-color: #F1C953;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.faq-item summary {
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-item p {
+    padding: 0px 12px 15px 12px;
+    margin: 0;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
