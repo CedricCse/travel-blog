@@ -1,140 +1,166 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Blog</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="./assets/logos/travel-blog-logo.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="fonts.css" />
-  </head>
 
-  <body>
-    <header>
-      <img src="./assets/logos/travel-blog-logo.svg" alt="travel-blog-logo" />
-      <nav>
-        <a href="">Highlights</a>
-        <a href="">FAQ</a>
-        <a href="">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./assets/logos/travel-blog-logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="fonts.css" />
+</head>
 
-    <section class="faq">
-      <h2>
-        <img src="./assets/logos/help.svg" alt="Fragezeichen" />
-        FAQ
-      </h2>
+<body>
+  <header>
+    <img src="./assets/logos/travel-blog-logo.svg" alt="travel-blog-logo" />
+    <nav>
+      <a href="">Highlights</a>
+      <a href="">FAQ</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
 
-      <div class="faq-container">
-        <details class="faq-item">
-          <summary>What is the story behind my travel blog?</summary>
-          <p>
-            I created this travel blog to share my experiences, adventures and
-            favorite destinations around the world.
-          </p>
-        </details>
+  <section class="highlights">
+    <div class="headline">
+      <h2> <img src="./assets/logos/rocket_launch.svg" alt="">Highlights</h2>
+      <p>From the vibrant cultures of Asia to the sun-drenched islands of the Caribbean and the serene landscapes
+        of
+        Scandinavia, each destination offers a distinct way to explore the world.</p>
+    </div>
+    <div class="container-card">
+      <input type="radio" name="slider" value="one" checked>
+      <input type="radio" name="slider" value="two">
 
-        <details class="faq-item">
-          <summary>How do I plan, document, and share my travels?</summary>
-          <p>
-            I plan my trips in advance and document my experiences along the
-            way.
-          </p>
-        </details>
-
-        <details class="faq-item">
-          <summary>
-            How can brands, companies, or fellow creators collaborate with me?
-          </summary>
-          <p>Feel free to contact me for collaborations and partnerships.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>
-            How can readers support this blog and the work behind it?
-          </summary>
-          <p>
-            You can support this blog by sharing my content and following my
-            travels.
-          </p>
-        </details>
+      <div class="cards">
+        <div class="card one">
+          <div class="info-one">
+            <h3>The World’s Most Breathtaking <br>Beaches</h3>
+            <p>From powder-soft white sands to dramatic coastlines kissed by turquoise waves, these beaches
+              are
+              more than destinations — they’re <br>feelings.</p>
+          </div>
+          <img src="./assets/images/beaches.jpg" alt="Beaches Image">
+        </div>
+        <div class="card two">
+          <div class="info-two">
+            <h3>Where Timeless History Meets Nordic Design</h3>
+            <p>From pastel-tinted waterfronts reflecting in calm canals to cobblestone alleyways echoing
+              with centuries of fairytale lore, this city is more than a destination — it’s an effortless
+              <br>masterpiece of living..
+            </p>
+          </div>
+          <img src="./assets/images/coppenhagen1.jpg" alt="coppenhagen Image">
+        </div>
       </div>
-    </section>
+    </div>
 
-    <section class="contact">
-      <h2>
-        <img src="./assets/logos/person_pin.svg" alt="person" />
-        Contact form
-      </h2>
+    </div>
+  </section>
 
-      <p class="contact-text">
-          Have a question or an idea to collaborate?<br />
-          Get in touch—I’d love tohear from you and explore how we can work
-          together.
+  <section class="faq">
+    <h2>
+      <img src="./assets/logos/help.svg" alt="Fragezeichen" />
+      FAQ
+    </h2>
+
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary>What is the story behind my travel blog?</summary>
+        <p>
+          I created this travel blog to share my experiences, adventures and
+          favorite destinations around the world.
         </p>
+      </details>
 
-        <form class="contact-form">
-          <div class="contact-row">
-            <div class="input-box">
-              <label for="name">What´s your name?</label>
-              <input type="text" name="name" id="name" />
-            </div>
+      <details class="faq-item">
+        <summary>How do I plan, document, and share my travels?</summary>
+        <p>
+          I plan my trips in advance and document my experiences along the
+          way.
+        </p>
+      </details>
 
-            <div class="input-box">
-              <label for="email">What´s your email?</label>
-              <input type="email" name="email" id="email" />
-            </div>
+      <details class="faq-item">
+        <summary>
+          How can brands, companies, or fellow creators collaborate with me?
+        </summary>
+        <p>Feel free to contact me for collaborations and partnerships.</p>
+      </details>
 
+      <details class="faq-item">
+        <summary>
+          How can readers support this blog and the work behind it?
+        </summary>
+        <p>
+          You can support this blog by sharing my content and following my
+          travels.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>
+      <img src="./assets/logos/person_pin.svg" alt="person" />
+      Contact form
+    </h2>
+
+    <p class="contact-text">
+      Have a question or an idea to collaborate?<br />
+      Get in touch—I’d love tohear from you and explore how we can work
+      together.
+    </p>
+
+    <form class="contact-form">
+      <div class="contact-row">
+        <div class="input-box">
+          <label for="name">What´s your name?</label>
+          <input type="text" name="name" id="name" />
         </div>
 
-        <div class="input-box message-box">
-            <label for="message">How can i help you?</label>
-            <textarea name="message" id="message"></textarea>
+        <div class="input-box">
+          <label for="email">What´s your email?</label>
+          <input type="email" name="email" id="email" />
         </div>
 
-            <div class="privacy">
-              <input type="checkbox" id="privacy" />
-
-              <label for="privacy">
-                I’ve read the <span>privacy policy</span> and agree to the
-                processing of my data as outlined.
-              </label>
-            </div>
-
-            <button class="send-button" type="submit">
-                send
-            </button>
-        </form>
-    </section>
-
-    <footer>
-      <div class="right-side">
-        <a class="copyright" href=""
-          ><img src="./assets/logos/copyright.svg" alt="copyright" />Travel Blog
-          2026</a
-        >
-        <a href="">Imprint</a>
-        <a href="">Cookie Preferences</a>
       </div>
 
-      <div class="social-media">
-        <a href="https://www.tiktok.com/" target="_blank"
-          ><img src="./assets/logos/Tiktok_icon.svg" alt="tiktok"
-        /></a>
-        <a href="https://www.youtube.com/" target="_blank"
-          ><img src="./assets/logos/youtube.svg" alt="youtube"
-        /></a>
-        <a href="https://www.facebook.com/" target="_blank"
-          ><img src="./assets/logos/facebook.svg" alt="facebook"
-        /></a>
-        <a href="https://www.instagram.com/" target="_blank"
-          ><img src="./assets/logos/Instagram.svg" alt="instagram"
-        /></a>
+      <div class="input-box message-box">
+        <label for="message">How can i help you?</label>
+        <textarea name="message" id="message"></textarea>
       </div>
-    </footer>
-  </body>
+
+      <div class="privacy">
+        <input type="checkbox" id="privacy" />
+
+        <label for="privacy">
+          I’ve read the <span>privacy policy</span> and agree to the
+          processing of my data as outlined.
+        </label>
+      </div>
+
+      <button class="send-button" type="submit">
+        send
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="right-side">
+      <a class="copyright" href=""><img src="./assets/logos/copyright.svg" alt="copyright" />Travel Blog
+        2026</a>
+      <a href="">Imprint</a>
+      <a href="">Cookie Preferences</a>
+    </div>
+
+    <div class="social-media">
+      <a href="https://www.tiktok.com/" target="_blank"><img src="./assets/logos/Tiktok_icon.svg" alt="tiktok" /></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="./assets/logos/youtube.svg" alt="youtube" /></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./assets/logos/facebook.svg" alt="facebook" /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="./assets/logos/Instagram.svg"
+          alt="instagram" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>
