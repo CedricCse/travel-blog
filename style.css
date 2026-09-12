@@ -7,7 +7,18 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+
+}
+
+.landing{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:0px max(120px, (50% - 720px)); ;
+
+    img{
+        width: 100%;
+    }
 }
 
 header {
@@ -195,7 +206,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 88px
+    gap: 88px;
+    padding: 120px max(120px, (50% - 720px));
 }
 
 .headline {
