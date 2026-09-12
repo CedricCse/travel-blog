@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,13 +11,14 @@ body {
 
 }
 
-.landing{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding:0px max(120px, (50% - 720px)); ;
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px max(120px, (50% - 720px));
+    ;
 
-    img{
+    img {
         width: 100%;
     }
 }
@@ -65,9 +67,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    font-family: 'Arima';
 
     color: rgba(78, 164, 135, 1);
-    font-size: 32px;
+    font-size: 52px;
 
     margin-bottom: 30px;
 }
@@ -112,11 +115,12 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8px;
-
+    font-family: 'Arima';
     margin: 0 0 10px;
 
     color: rgb(78, 164, 135);
-    font-size: 32px;
+    font-size: 52px;
+
 }
 
 .contact h2 img {
@@ -231,6 +235,7 @@ header {
     }
 
     p {
+        line-height: 120%;
         font-family: 'Palanquin';
         font-weight: 500;
         font-size: 1.5rem;
@@ -261,7 +266,7 @@ header {
     left: 600px;
 }
 
-.cards {
+ .cards{
     width: 200%;
     height: 100%;
     position: absolute;
@@ -269,15 +274,14 @@ header {
     display: flex;
 
     transition: all 1s ease-in-out;
-}
 
+}
 .card>img {
     height: 100%;
     border-top-right-radius: 100px;
     width: 100%;
 }
-
-.one {
+ .one {
     width: calc(100% / 2);
     display: flex;
     justify-content: center;
@@ -316,6 +320,7 @@ header {
 
 
     h3 {
+        line-height: 120%;
         font-family: 'Palanquin Dark';
         font-weight: 600;
         font-size: 3rem;
@@ -324,6 +329,7 @@ header {
     }
 
     p {
+        line-height: 120%;
         font-family: 'Palanquin';
         font-weight: 400;
         font-size: 1.5rem;
@@ -332,7 +338,22 @@ header {
 
     }
 
+    a{
+        position: relative;
+        left: 600px;
+        font-style: oblique;
+        color: white;
+        
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color:rgba(241, 201, 83, 1);
+    }
+
 }
+
+
 
 .info-two {
     display: flex;
@@ -346,6 +367,7 @@ header {
     backdrop-filter: blur(10px);
 
     h3 {
+        line-height: 120%;
         font-family: 'Palanquin Dark';
         font-weight: 600;
         font-size: 3rem;
@@ -354,6 +376,7 @@ header {
     }
 
     p {
+        line-height: 120%;
         font-family: 'Palanquin';
         font-weight: 400;
         font-size: 1.5rem;
@@ -361,6 +384,19 @@ header {
         padding: 0px 24px 16px 24px;
 
     }
+    a{
+        position: relative;
+        left: 450px;
+        font-style: oblique;
+        color: white;
+        
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color:rgba(241, 201, 83, 1);
+    }
+
 
 }
 
@@ -402,4 +438,7 @@ footer {
     }
 
 
+}
+.social-media>a:hover {
+    transform: scale(1.2);
 }
