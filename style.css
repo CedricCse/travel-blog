@@ -230,7 +230,7 @@ header {
     gap: 8px;
 
     color: rgba(78, 164, 135, 1);
-    font-size: 52px;
+    font-size: 3.25rem;
 
     margin-bottom: 30px;
 }
@@ -280,7 +280,7 @@ header {
     margin: 0 0 10px;
 
     color: rgb(78, 164, 135);
-    font-size: 52px;
+    font-size: 3.25rem;
 }
 
 .contact h2 img {
@@ -344,7 +344,9 @@ header {
 
     margin-top: 15px;
 
-    font-size: 10px;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .privacy span {
@@ -361,7 +363,7 @@ header {
     border: 1px solid #aaa;
     border-radius: 20px;
 
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -406,6 +408,7 @@ footer {
 .video-section {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 
     width: 100%;
     padding-top: 80px;
@@ -424,27 +427,27 @@ footer {
 .video-text h3 {
     margin: 0 0 8px 0;
     font-family: 'Palanquin';
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.1;
 
-    color: #4fa98f;
+    color: rgb(79, 169, 143);
 }
 
 .video-text h1 {
     margin: 0 0 20px 0;
     font-family: 'Arima';
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 1.1;
-    color: #f4c548;
+    color: rgb(244, 197, 72);
 }
 
 .video-text p {
     margin: 0;
 
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 1.1;
 
-    color: #4d2f12;
+    color: rgb(77, 47, 18);
 }
 
 .author-card {
@@ -470,8 +473,8 @@ footer {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 12px;
-    color: #4b392c;
+    font-size: 0.75rem;
+    color: rgb(75, 57, 44);
     white-space: nowrap;
 }
 
@@ -483,28 +486,167 @@ footer {
 
 .travel-video {
     width: 1150px;
-    margin-left: 70px;
-    margin-top: 70px;
+    margin: 70px auto 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .travel-video p {
     width: 700px;
-    max-width: 700px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 100%;
     min-width: 700px;
-    margin-bottom: 40px;
-    margin-left: 70px;
-    font-size: 24px;
+    margin: 0 0 40px 0;
+    font-size: 1.5rem;
 }
 
 .video-container {
     width: 650px;
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .video-container video {
     width: 100%;
     height: 360px;
-    margin-left: 350px;
     object-fit: cover;
     border-radius: 35px;
+    display: block;
+}
+
+.travel-tips {
+    font-family: 'Palanquin';
+    line-height: 1.2;
+    max-width: 1250px;
+    margin: 80px auto 0;
+}
+
+.tips-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tips-content > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.tips-content ul {
+    margin: 20px 0 30px 30px;
+}
+
+.tips-content li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.pro-tips {
+    position: relative;
+
+    background-color: rgb(220, 238, 232);
+    border-radius: 20px;
+
+    padding: 30px 40px 20px;
+    margin: 70px auto 0;
+
+    width: 900px;
+    max-width: 100%;
+}
+
+.pro-tips h3 {
+    position: absolute;
+    font-family: 'Palanquin';
+    font-weight: 700;
+    font-style: bold;
+    top: -18px;
+    left: -15px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    background-color: rgb(79, 168, 142);
+    color: rgb(255, 200, 61);
+
+    padding: 5px 9px;
+    border-radius: 10px;
+
+    font-size: 1.75rem;
+    font-weight: 500;
+
+    transform: rotate(-7deg);
+
+    margin: 0;
+}
+
+.pro-tips h3 img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.pro-tips ol {
+    margin-left: 25px;
+    font-family: 'Palanquin';
+}
+
+.pro-tips li {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.pro-tips strong {
+    color: rgba(78, 164, 135, 1);
+}
+
+.share-area {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.share-area p {
+    margin-bottom: 5px;
+}
+
+.share-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.share-arrow {
+    width: 65px;
+    height: auto;
+}
+
+.share-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    background-color: #4fa88e;
+    color: #ffc83d;
+
+    border: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+
+.share-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.share-area button:hover {
+    transform: scale(1.05);
 }
