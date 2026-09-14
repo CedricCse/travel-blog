@@ -45,6 +45,17 @@ header {
     }
 }
 
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px max(120px, (50%-720px));
+
+    img {
+        width: 100%;
+    }
+}
+
 .highlights {
     display: flex;
     flex-direction: column;
@@ -390,6 +401,58 @@ footer {
         display: flex;
         gap: 16px;
     }
+}
 
+.video-section {
+    display: flex;
+    align-items: flex-start;
 
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 140px;
+    padding-right: 40px;
+
+    gap: 20px;
+}
+
+.video-text {
+    width: 900px;
+}
+
+.video-text h3 {
+    margin: 0 0 8px 0;
+    font-family: 'Palanquin';
+    font-size: 40px;
+    line-height: 1.1;
+
+    color: #4fa98f;
+}
+
+.video-text h1 {
+    margin: 0 0 20px 0;
+    font-family: 'Arima';
+    font-size: 64px;
+    line-height: 1.1;
+    color: #f4c548;
+}
+
+.video-text p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 1.1;
+
+    color: #4d2f12;
+}
+
+.author-card {
+    width: 320px;
+    min-width: 320px;
+}
+
+.author-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
 }
