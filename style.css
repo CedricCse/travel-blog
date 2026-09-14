@@ -615,9 +615,12 @@ footer {
 
 .share-area p {
     margin-bottom: 5px;
+    font-family: 'Arima';
+    font-weight: 500;
 }
 
 .share-bottom {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -625,6 +628,9 @@ footer {
 }
 
 .share-arrow {
+    position: absolute;
+    left: 325px;
+    top: -12px;
     width: 65px;
     height: auto;
 }
