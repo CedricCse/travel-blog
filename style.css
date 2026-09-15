@@ -953,8 +953,9 @@ footer {
         width: 55px;
         height: auto;
 
-        left: calc(50% - 90px);
-        top: -25px;
+        left: 50%;
+        transform: translateX(-150px);
+        bottom: 25px;
 
         pointer-events: none;
     }
