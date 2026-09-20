@@ -1,0 +1,75 @@
+@media screen and (min-width:480px) and (max-width:768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .landing {
+        padding: 0px max(0px, (50% - 720px));
+
+        .small-img {
+            display: unset;
+        }
+
+        .big-img {
+            display: none;
+        }
+    }
+
+    .container-card {
+        width: clamp(450px, 90vw, 900px);
+        height: clamp(350px, 70vw, 900px);
+        align-items: center;
+    }
+
+    .headline {
+        width: clamp(450px, 90vw, 900px);
+    }
+
+
+    .input-one {
+        left: 45%;
+    }
+
+    .input-two {
+        left: 55%;
+    }
+
+    .info-one {
+        width: 75%;
+        top: 5%;
+
+        h3 {
+            font-size: clamp(1.5rem, 2rem, 2.5rem);
+            padding: 16px 24px 0px 24px;
+        }
+
+        p {
+            font-size: clamp(1rem, 1.3rem, 2rem);
+        }
+
+        a {
+            left: 75%;
+        }
+    }
+
+    .info-two {
+        width: 45%;
+        top: 5%;
+        left: 52%;
+
+        h3 {
+
+            font-size: clamp(1.5rem, 2rem, 2.5rem);
+            padding: 16px 24px 0px 24px;
+        }
+
+        a {
+            left: 75%;
+        }
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+}
