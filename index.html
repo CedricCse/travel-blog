@@ -3,44 +3,31 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Travel Blog</title>
+  <link rel="shortcut icon" href="./assets/logos/travel-blog-logo1.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style1.css" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="./assets/logos/travel-blog-logo.svg" type="image/x-icon" />
   <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="media-quiry-index.css">
+  <link rel="stylesheet" href="media-quiry-carousel.css">
 </head>
 
 <body>
   <header>
-    <img src="./assets/logos/travel-blog-logo.svg" alt="travel-blog-logo" />
+    <img src="./assets/logos/travel-blog-logo1.svg" alt="travel-blog-logo" />
     <nav>
-      <a href="#highlights">Highlights</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
+      <a class="highlights-nav" href="#highlights">Highlights <img src="./assets/logos/hover_underline_highlights.svg"
+          alt=""></a>
+      <a class="faq-nav" href="#faq">FAQ <img src="./assets/logos/hever_underline_FAQ.svg" alt=""></a>
+      <a class="contact-nav" href="#contact">Contact <img src="./assets/logos/hover_underline_contact.svg" alt=""></a>
     </nav>
-
-    <nav class="mobile-nav">
-    <a href="#" aria-label="Home">
-        <img src="./assets/logos/home.svg" alt="Home">
-    </a>
-
-    <a href="#highlights" aria-label="Highlights">
-        <img src="./assets/logos/rocket_launch.svg" alt="Highlights">
-    </a>
-
-    <a href="#faq" aria-label="FAQ">
-        <img src="./assets/logos/help.svg" alt="FAQ">
-    </a>
-
-    <a href="#contact" aria-label="Contact">
-        <img src="./assets/logos/person_pin.svg" alt="Contact">
-    </a>
-  </nav>
-
   </header>
   <div class="landing">
-    <img src="./assets/images/hero-web.png" alt="">
+    <img class="big-img" src="./assets/images/hero-web.png" alt="">
+    <img class="small-img" src="./assets/images/hero mob.png" alt="">
   </div>
+
 
   <section class="highlights" id="highlights">
     <div class="headline">
@@ -50,30 +37,30 @@
         Scandinavia, each destination offers a distinct way to explore the world.</p>
     </div>
     <div class="container-card">
-      <input type="radio" name="slider" value="one" checked>
-      <input type="radio" name="slider" value="two">
+      <input class="input-one" type="radio" name="slider" value="one" checked>
+      <input class="input-two" type="radio" name="slider" value="two">
 
       <div class="cards">
-
-        <div class="card one">
-            <div class="info-one">
-              <h3>The World’s Most Breathtaking <br>Beaches</h3>
-              <p>From powder-soft white sands to dramatic coastlines kissed by turquoise waves, these beaches
-                are
-                more than destinations — they’re <br>feelings. <a href="./carousel.html"> <strong>See More</strong></a></p>
-            </div>
-            <img src="./assets/images/beaches.jpg" alt="Beaches Image">
+        <div class=" card one">
+          <a href="./carousel.html"><div class="info-one">
+            <h3>The World’s Most Breathtaking <br>Beaches</h3>
+            <p>From powder-soft white sands to dramatic coastlines kissed by turquoise waves, these beaches
+              are
+              more than destinations — they’re <br>feelings.
+            </p>
+          </div>
+        <img src="./assets/images/beaches.jpg" alt="Beaches Image"></a>
         </div>
 
         <div class="card two">
-          <div class="info-two">
+          <a href="./video.html"><div class="info-two">
             <h3>Where Timeless History Meets Nordic Design</h3>
             <p>From pastel-tinted waterfronts reflecting in calm canals to cobblestone alleyways echoing
               with centuries of fairytale lore, this city is more than a destination — it’s an effortless
-              <br>masterpiece of living..<a href=""> <strong>See More</strong></a>
+              <br>masterpiece of living..
             </p>
           </div>
-          <img src="./assets/images/coppenhagen.jpg" alt="coppenhagen Image">
+          <img src="./assets/images/coppenhagen1.jpg" alt="coppenhagen Image"></a>
         </div>
       </div>
     </div>
@@ -163,18 +150,19 @@
         </label>
       </div>
 
-      <button class="send-button" type="submit">
+      <button class="send-button" type="submit"><a href="#contact">
         send
-      </button>
+      </a></button>
     </form>
   </section>
 
-  <footer>
+
+  <footer id="footer">
     <div class="right-side">
-      <a class="copyright" href=""><img src="./assets/logos/copyright.svg" alt="copyright" />Travel Blog
+      <a class="copyright" href="#footer"><img src="./assets/logos/copyright.svg" alt="copyright" />Travel Blog
         2026</a>
-      <a href="">Imprint</a>
-      <a href="">Cookie Preferences</a>
+      <a class="imprint" href="#footer">Imprint</a>
+      <a href="#footer">Cookie Preferences</a>
     </div>
 
     <div class="social-media">
@@ -184,6 +172,23 @@
       <a href="https://www.instagram.com/" target="_blank"><img src="./assets/logos/Instagram.svg"
           alt="instagram" /></a>
     </div>
+    <nav class="mobile-nav">
+      <a href="#" aria-label="Home">
+        <img src="./assets/logos/home.svg" alt="Home">
+      </a>
+
+      <a href="#highlights" aria-label="Highlights">
+        <img src="./assets/logos/rocket_launch.svg" alt="Highlights">
+      </a>
+
+      <a href="#faq" aria-label="FAQ">
+        <img src="./assets/logos/help.svg" alt="FAQ">
+      </a>
+
+      <a href="#contact" aria-label="Contact">
+        <img src="./assets/logos/person_pin.svg" alt="Contact">
+      </a>
+    </nav>
   </footer>
 </body>
 
